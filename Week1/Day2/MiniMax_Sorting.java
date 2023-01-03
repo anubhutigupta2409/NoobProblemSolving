@@ -56,7 +56,7 @@ class Result {
     // Write your code here
 
         //the normal sorting method
-        Collections.sort(arr);
+        Collections.sort(arr);// if complexity constraints are there then do not sort and just find the positions of the maximum and the minimum element
 
         int n = arr.size();
 
