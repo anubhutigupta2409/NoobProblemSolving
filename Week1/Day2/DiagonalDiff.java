@@ -92,6 +92,26 @@ class Result {
         }
 
         return Math.abs(leftSum - rightSum);
+       
+       /*
+       In O(n)
+       
+       int res;
+    
+    int leftD=0, rightD=0;
+    int n= arr.size();
+    
+    for(int i=0;i<n;i++)
+    {
+        leftD+=arr.get(i).get(i);
+        rightD+=arr.get(i).get(n-1-i);
+    }
+    
+    res = Math.abs(leftD-rightD);
+    
+    return res;
+        
+       */
 
     }
 
